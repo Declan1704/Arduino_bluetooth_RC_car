@@ -22,10 +22,6 @@ void Stp(){
   digitalWrite(in2,LOW);
   digitalWrite(in3,LOW);
   digitalWrite(in4,LOW);
-  digitalWrite(in5,LOW);
-  digitalWrite(in6,LOW);
-  digitalWrite(in7,LOW);
-  digitalWrite(in8,LOW);
   analogWrite(spdpin1,Speed);
   Serial.println("Stop");
 }
